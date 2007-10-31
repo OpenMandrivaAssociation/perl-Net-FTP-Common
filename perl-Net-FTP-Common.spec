@@ -1,6 +1,6 @@
 %define module	Net-FTP-Common
 %define name	perl-%{module}
-%define version 6.0
+%define version 6.1
 %define	release	%mkrel 1
 
 Name:		%{name}
@@ -9,7 +9,7 @@ Release:	%{release}
 Summary:	Simplify common usages of Net::FTP 
 License:	GPL or Artistic
 Group:		Development/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/%{module}-%{version}.tar.bz2
+Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/%{module}-%{version}.tar.gz
 Url:		http://search.cpan.org/dist/%{module}
 %if %{mdkversion} < 1010
 Buildrequires:	perl-devel
