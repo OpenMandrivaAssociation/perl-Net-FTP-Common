@@ -16,6 +16,7 @@ Buildrequires:	perl-devel
 %endif
 BuildRequires:	perl(Net::FTP)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module is intended to make the common uses of Net::FTP a one-line,
