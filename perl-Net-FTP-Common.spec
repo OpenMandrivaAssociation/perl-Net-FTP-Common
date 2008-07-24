@@ -1,7 +1,7 @@
 %define module	Net-FTP-Common
 %define name	perl-%{module}
 %define version 6.1
-%define	release	%mkrel 1
+%define	release	%mkrel 3
 
 Name:		%{name}
 Version:	%{version}
